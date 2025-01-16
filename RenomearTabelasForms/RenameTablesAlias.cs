@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace RenomearTabelasForms
 {
@@ -26,6 +27,9 @@ namespace RenomearTabelasForms
             Txt_Alias.Text = "";
             Txt_Command.Text = "";
             Txt_Result.Text = "";
+
+            Txt_Command.ScrollBars = ScrollBars.Vertical;
+            Txt_Result.ScrollBars = ScrollBars.Vertical;
 
             Btn_Replace.Text = "Subistituir";
             Btn_Example.Text = "Exemplo";
